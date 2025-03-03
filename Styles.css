@@ -61,13 +61,6 @@ body, html{
     border-radius: 15px;
 }
 
-.horizontal-line {
-  height: 2px;
-  background-color: #fff;
-  flex-grow: 1; /* This will make the line extend to the end of the page */
-  margin-left: 20px; /* Adjust this value to control the space between the button and the line */
-}
-
 .cta-button:hover {
     background-color: #fff;
     color: #000;
