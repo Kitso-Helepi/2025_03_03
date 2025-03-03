@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <title>nav</title>
+</head>
+<body>
+	<div class="navbar">
+		<img id="logo" src="apple.png" >
+	<section class="menu_options">
+		<a href="about.html">About</a>
+		<a href="blog.html">Blog</a>
+		<select id="drpdown" value="Products">
+			<option value="c.html">Catagory 1</a></option>
+			<option value="c.html">Category 2</a></option>
+			<option value="c.html">Category 3</a></option>
+		</select>
+
+		<script>
+
+    const dropdown = document.getElementById("drpdown");
+
+    dropdown.addEventListener("change", function() {
+
+        window.location.href = this.value; 
+
+    });
+
+</script>
+
+		<a href="contact.html">Contact</a>
+		<img id="bardropdown" src=" ">
+	</section>
+
+</div>
