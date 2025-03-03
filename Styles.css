@@ -8,6 +8,53 @@
 	margin-top: 0%
 }
 
+
+/* NavBar Section */
+
+/* Hero Section */
+
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+.hero-section {
+  height: 100vh;
+  background-image: url('background.jpg'); 
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.hero-text {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.hero-button {
+  padding: 1rem 2rem;
+  font-size: 1.5rem;
+  background-color: #747474;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.hero-button:hover {
+  background-color: #e4e2e1;
+}
+
+
+/* Slider Section */
+
+/* Blog Section */
+
+/* Footer Section */
+
 img{
     text-align: center;
     height: 50%;
@@ -132,4 +179,5 @@ img{
 }
 
 .social-media img {
-    
+
+}
