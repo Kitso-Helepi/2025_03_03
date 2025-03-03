@@ -50,6 +50,7 @@ body, html{
 
 .cta-button {
     padding: 10px 20px;
+    width: 300px;
     background: none;
     color: #fff;
     border: 2px solid #fff;
@@ -58,6 +59,13 @@ body, html{
     transition: background-color 0.3s, color 0.3s;
     position: relative;
     border-radius: 15px;
+}
+
+.horizontal-line {
+  height: 2px;
+  background-color: #fff;
+  flex-grow: 1; /* This will make the line extend to the end of the page */
+  margin-left: 20px; /* Adjust this value to control the space between the button and the line */
 }
 
 .cta-button:hover {
