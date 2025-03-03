@@ -1,3 +1,12 @@
+/* General Styles*/
+body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+
+/* NavBar Section */
 #logo {
 	position: fixed;
 	height: 50px;
@@ -8,16 +17,7 @@
 	margin-top: 0%
 }
 
-
-/* NavBar Section */
-
 /* Hero Section */
-
-body{
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
 .hero-section {
   height: 100vh;
   background-image: url('background.jpg'); 
