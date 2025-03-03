@@ -26,7 +26,7 @@ body{
     background-image: url('images/background.jpg'); 
     background-size: cover;
     background-position: center;
-    color: #fff;
+    color: #000;
     height: 100vh;
     justify-content: space-around; /* To ensure spacing above and below */
     padding: 20px 0;
