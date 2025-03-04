@@ -79,6 +79,24 @@ body, html{
 /* Slider Section */
 
 /* Blog Section */
+.container {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-around; /* Space out the forms evenly */
+  align-items: flex-start; /* Align items at the start */
+  flex-wrap: wrap; /* Allow wrapping to the next line if necessary */
+  padding: 20px; /* Optional: Add some padding around the container */
+}
+
+.Blog {
+  border: 1px solid #ccc; /* Optional: Add a border for better visibility */
+  padding: 10px; /* Optional: Add padding inside each form */
+  margin: 10px; /* Optional: Add margin between forms */
+  width: 200px; /* Set a fixed width for each form */
+  text-align: center; /* Center text inside the form */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+  border-radius: 5px;
+  background-color: #f0f0f0;
+}
 
 /* Footer Section */
 
