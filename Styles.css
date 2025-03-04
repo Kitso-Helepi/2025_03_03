@@ -42,11 +42,18 @@ body, html{
     position: relative;
 }
 
+.flex-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px; /* Adjust the gap between the elements as needed */
+}
+
 .hero .line {
     width: 200px;
     height: 2px;
     background-color: #fff;
-    margin-top: 20px; /* hero line test*/
+    flex: 1;
 }
 
 .cta-button {
