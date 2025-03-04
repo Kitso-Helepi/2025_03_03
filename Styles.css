@@ -87,7 +87,7 @@ body, html{
   padding: 20px; /* Optional: Add some padding around the container */
 }
 
-.Blog {
+#Blog {
   border: 1px solid #ccc; /* Optional: Add a border for better visibility */
   padding: 10px; /* Optional: Add padding inside each form */
   margin: 10px; /* Optional: Add margin between forms */
